@@ -2,10 +2,30 @@ h1, h2, p {
     text-align: center;
   }
 
-  body {
+h1, h2 {
+    font-family: Impact, serif;
+  }
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
+}
+
+body {
     min-height: 100%;
     background-image: url(./assets/images/cafe-menu-background.png);
     background-size: cover;
+    font-family: sans-serif;
+    padding: 20px;
  }
 
 .menu {
@@ -29,4 +49,43 @@ h1, h2, p {
 
 .item p {
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+a {
+    color: black;
+  }
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
 }
