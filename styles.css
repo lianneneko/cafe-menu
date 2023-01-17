@@ -89,3 +89,14 @@ a:hover {
 a:active {
     color: brown;
 }
+
+.coffeeicon, .dessertsicon {
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
